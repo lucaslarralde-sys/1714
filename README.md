@@ -1,35 +1,34 @@
-# Ecowatt — Opción Azul (ONE-FOLDER IMAGES)
+# Ecowatt (variante azul)
 
-## Qué cargás vos
-- **Video del héroe**: coloca tu archivo en `public/video/Hero.mp4` (usa exactamente ese nombre).
-- **Imágenes de todas las áreas**: coloca todo en **una sola carpeta** `public/images/areas_all/` con estos nombres:
-  - `aguas-1.jpg … aguas-4.jpg`
-  - `urbanos-1.jpg … urbanos-4.jpg`
-  - `industriales-1.jpg … industriales-4.jpg`
-  - `aire-1.jpg … aire-4.jpg`
-  - `equipos-1.jpg … equipos-4.jpg`
+Estructura lista para publicar en Netlify / GitHub. **Solo cargá tu video e imágenes.**
 
-## Partners (ya listos)
-- 2G → `public/images/partners/2g.png` → https://2gservicos.com/
-- FUCHS → `public/images/partners/FUCHS.png` → https://www.fuchswater.com/es/
-- AIRCLEAN → `public/images/partners/airclean.png` → https://aircleansrl.com/
-- DAGA → `public/images/partners/daga.png` → https://dagaequipment.com/es/
-- AQANA → `public/images/partners/aqana.png` → https://aqana.com/
+## Dónde subir tus archivos
 
-## Logo
-- `public/images/logo/logo-ecowatt.png`
+- Video del héroe (sección superior):
+  - Colocá tu archivo en: **`public/video/hero.mp4`**
 
-## Subida rápida por Web de GitHub (un paso)
-1. Entrá a tu repo en GitHub (web) → **Add file → Upload files**.
-2. Arrastrá **la carpeta descomprimida completa** (raíz del proyecto) al cuadro de subida.
-3. Baja al final, escribí un mensaje (por ej. `upload site`) y hacé **Commit changes**.
-   > GitHub sube todas las carpetas y archivos en un solo paso.
+- Logo principal (ya incluido):
+  - `public/images/logo/logo-ecowatt.png`
 
-## Netlify (sin build)
-- New site from Git → GitHub → elegí el repo.
-- Build command: *(vacío)*
-- Publish directory: `/`
+- Logos de partners (ya incluidos + con link):
+  - `public/images/partners/` (FUCHS, AQANA, DAGA, 2G, AirClean)
 
-## Tips
-- Optimiza imágenes a ~1600px lado mayor (JPG 80%).
-- El video en H.264 (MP4), 1280x720 u 1920x1080.
+- Imágenes de cada área (todas en una sola carpeta):
+  - **`public/images/areas/`**  
+  - Nombres esperados (podés reemplazar por tus fotos con esos nombres):
+    - Aguas: `aguas-1.jpg`, `aguas-2.jpg`, `aguas-3.jpg`, `aguas-4.jpg`
+    - Efluentes urbanos: `urbanos-1.jpg`, `urbanos-2.jpg`, `urbanos-3.jpg`, `urbanos-4.jpg`
+    - Efluentes industriales y bioenergía: `industriales-1.jpg`, `industriales-2.jpg`, `industriales-3.jpg`, `industriales-4.jpg`
+    - Aire y gases: `aire-1.jpg`, `aire-2.jpg`, `aire-3.jpg`, `aire-4.jpg`
+    - Equipos electromecánicos: `equipos-1.jpg`, `equipos-2.jpg`, `equipos-3.jpg`, `equipos-4.jpg`
+
+> Si alguna imagen falta, la página igual carga; simplemente no se mostrará esa miniatura.
+
+## Publicación rápida
+
+1. Subí todo este ZIP descomprimido a GitHub (o a Netlify como “Drag & Drop”).  
+2. Si usás Netlify con repo:
+   - Build command: **(vacío)**  
+   - Publish directory: **`/`** (raíz del repo).
+
+¡Listo!
