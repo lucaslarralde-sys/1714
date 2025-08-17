@@ -1,0 +1,207 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Ecowatt — Ingeniería Ambiental</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- Header gris clarito -->
+  <header class="site-header">
+    <div class="container header-wrap">
+      <a class="brand" href="#">
+        <img src="public/images/logo/logo-ecowatt.png" alt="Ecowatt" class="brand__logo" />
+        <span class="brand__text">INGENIERÍA AMBIENTAL</span>
+      </a>
+      <nav class="nav">
+        <a href="#hero">Inicio</a>
+        <a href="#areas">Áreas</a>
+        <a href="#partners">Alianzas</a>
+        <a href="#contacto">Contacto</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- HERO con video -->
+  <section id="hero" class="hero">
+    <video class="hero__video" autoplay muted loop playsinline poster=""></video>
+    <div class="hero__overlay"></div>
+    <div class="container hero__content">
+      <p class="eyebrow">TRATAMIENTO DE AGUAS Y EFLUENTES LÍQUIDOS</p>
+      <h1>Soluciones integrales con foco en desempeño ambiental</h1>
+      <p class="sub">Diseño, operación y optimización de plantas. Reúso y eficiencia de recursos.</p>
+      <div class="cta">
+        <a href="#areas" class="btn btn--primary">Conocer áreas</a>
+        <a href="#contacto" class="btn btn--ghost">Contactar</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ÁREAS (texto color + galería en blanco; imágenes desde una sola carpeta) -->
+  <main id="areas" class="areas">
+
+    <!-- Aguas -->
+    <section class="area-block">
+      <div class="area-block__text band band--blue">
+        <div class="container">
+          <h2 class="area-title">Aguas</h2>
+          <p>Potabilización, captación, almacenamiento y distribución. Calidad, continuidad y eficiencia de operación.</p>
+        </div>
+      </div>
+      <div class="area-block__gallery gallery">
+        <div class="container">
+          <div class="gallery__main">
+            <img id="img-aguas-main" src="public/images/areas_all/aguas-1.jpg" alt="Aguas 1" />
+          </div>
+          <div class="gallery__thumbs" data-target="img-aguas-main">
+            <img src="public/images/areas_all/aguas-1.jpg" alt="Aguas 1" />
+            <img src="public/images/areas_all/aguas-2.jpg" alt="Aguas 2" />
+            <img src="public/images/areas_all/aguas-3.jpg" alt="Aguas 3" />
+            <img src="public/images/areas_all/aguas-4.jpg" alt="Aguas 4" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Efluentes urbanos -->
+    <section class="area-block">
+      <div class="area-block__text band band--gray">
+        <div class="container">
+          <h2 class="area-title">Efluentes urbanos</h2>
+          <p>Plantas modulares, lodos activados, MBBR, clarificación y desinfección. Operación y eficiencia energética.</p>
+        </div>
+      </div>
+      <div class="area-block__gallery gallery">
+        <div class="container">
+          <div class="gallery__main">
+            <img id="img-urbanos-main" src="public/images/areas_all/urbanos-1.jpg" alt="Urbanos 1" />
+          </div>
+          <div class="gallery__thumbs" data-target="img-urbanos-main">
+            <img src="public/images/areas_all/urbanos-1.jpg" alt="Urbanos 1" />
+            <img src="public/images/areas_all/urbanos-2.jpg" alt="Urbanos 2" />
+            <img src="public/images/areas_all/urbanos-3.jpg" alt="Urbanos 3" />
+            <img src="public/images/areas_all/urbanos-4.jpg" alt="Urbanos 4" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Industriales y bioenergía -->
+    <section class="area-block">
+      <div class="area-block__text band band--green">
+        <div class="container">
+          <h2 class="area-title">Efluentes industriales y bioenergía</h2>
+          <p>Tratamientos físico-químicos y biológicos. Digestión anaerobia para biogás y cogeneración.</p>
+        </div>
+      </div>
+      <div class="area-block__gallery gallery">
+        <div class="container">
+          <div class="gallery__main">
+            <img id="img-industriales-main" src="public/images/areas_all/industriales-1.jpg" alt="Industriales 1" />
+          </div>
+          <div class="gallery__thumbs" data-target="img-industriales-main">
+            <img src="public/images/areas_all/industriales-1.jpg" alt="Industriales 1" />
+            <img src="public/images/areas_all/industriales-2.jpg" alt="Industriales 2" />
+            <img src="public/images/areas_all/industriales-3.jpg" alt="Industriales 3" />
+            <img src="public/images/areas_all/industriales-4.jpg" alt="Industriales 4" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Aire y gases -->
+    <section class="area-block">
+      <div class="area-block__text band band--gray">
+        <div class="container">
+          <h2 class="area-title">Aire y gases</h2>
+          <p>Control de emisiones, desodorización, torres de lavado y biofiltros. Cumplimiento normativo.</p>
+        </div>
+      </div>
+      <div class="area-block__gallery gallery">
+        <div class="container">
+          <div class="gallery__main">
+            <img id="img-aire-main" src="public/images/areas_all/aire-1.jpg" alt="Aire 1" />
+          </div>
+          <div class="gallery__thumbs" data-target="img-aire-main">
+            <img src="public/images/areas_all/aire-1.jpg" alt="Aire 1" />
+            <img src="public/images/areas_all/aire-2.jpg" alt="Aire 2" />
+            <img src="public/images/areas_all/aire-3.jpg" alt="Aire 3" />
+            <img src="public/images/areas_all/aire-4.jpg" alt="Aire 4" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Equipos -->
+    <section class="area-block">
+      <div class="area-block__text band band--blue">
+        <div class="container">
+          <h2 class="area-title">Equipamiento electromecánico</h2>
+          <p>Bombas, soplantes, tamices, espesadores, digestores, aireación. Integración, servicio y repuestos.</p>
+        </div>
+      </div>
+      <div class="area-block__gallery gallery">
+        <div class="container">
+          <div class="gallery__main">
+            <img id="img-equipos-main" src="public/images/areas_all/equipos-1.jpg" alt="Equipos 1" />
+          </div>
+          <div class="gallery__thumbs" data-target="img-equipos-main">
+            <img src="public/images/areas_all/equipos-1.jpg" alt="Equipos 1" />
+            <img src="public/images/areas_all/equipos-2.jpg" alt="Equipos 2" />
+            <img src="public/images/areas_all/equipos-3.jpg" alt="Equipos 3" />
+            <img src="public/images/areas_all/equipos-4.jpg" alt="Equipos 4" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Alianzas estratégicas -->
+  <section id="partners" class="partners">
+    <div class="container">
+      <h3>Alianzas estratégicas</h3>
+      <div class="partners__logos">
+        <a href="https://aqana.com/" target="_blank" rel="noopener"><img src="public/images/partners/aqana.png" alt="AQANA" /></a>
+        <a href="https://aircleansrl.com/" target="_blank" rel="noopener"><img src="public/images/partners/airclean.png" alt="AIRCLEAN" /></a>
+        <a href="https://dagaequipment.com/es/" target="_blank" rel="noopener"><img src="public/images/partners/daga.png" alt="DAGA" /></a>
+        <a href="https://www.fuchswater.com/es/" target="_blank" rel="noopener"><img src="public/images/partners/FUCHS.png" alt="FUCHS" /></a>
+        <a href="https://2gservicos.com/" target="_blank" rel="noopener"><img src="public/images/partners/2g.png" alt="2G" /></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contacto -->
+  <section id="contacto" class="contact band band--blue">
+    <div class="container">
+      <h3>Contacto</h3>
+      <form class="contact__form" name="contact" method="POST" data-netlify="true">
+        <input type="hidden" name="form-name" value="contact" />
+        <div class="grid">
+          <div class="field"><label>Nombre</label><input type="text" name="nombre" required /></div>
+          <div class="field"><label>Email</label><input type="email" name="email" required /></div>
+          <div class="field"><label>Teléfono</label><input type="text" name="telefono" /></div>
+          <div class="field field--full"><label>Mensaje</label><textarea name="mensaje" rows="4" required></textarea></div>
+        </div>
+        <button class="btn btn--primary" type="submit">Enviar</button>
+      </form>
+      <div class="contact__data">
+        <p><strong>Ecowatt – Ingeniería Ambiental</strong></p>
+        <p>info@ecowatt.com • +54 …</p>
+        <p>Argentina</p>
+      </div>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="container"><small>© Ecowatt. Todos los derechos reservados.</small></div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
